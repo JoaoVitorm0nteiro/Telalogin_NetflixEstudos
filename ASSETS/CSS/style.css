@@ -28,7 +28,7 @@ body::before{
 }
 
 .header {
-    padding: 20px, 50px;
+    padding: 20px 50px;
     position: relative;
     z-index: 10;
 }
@@ -40,7 +40,7 @@ body::before{
     max-width: 450px;
     height: 550px;
     margin-left: 50%;
-    background-color: rgb(0,0,0,0.75);
+    background-color: rgb(0, 0, 0, 0.75);
     border-radius: 10px;
     box-sizing: border-box;
     transform: translateX(-50%);
@@ -64,6 +64,111 @@ body::before{
     outline: none;
 }
 
+.login_body input:hover{
+    background-color: #444;
+}
+
+.input_box{
+    margin-bottom: 25px;
+
+}
+
+.login_body button{
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #e50914;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.login_body button:hover{
+    background-color: #fc1722;
+    cursor: pointer;
+}
+ 
+.support {
+    display:flex;
+    color: #b3b3b3;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.support input{
+    width: 15px;
+    height: 15px;
+
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+}
+
+.remember span{
+    margin-right: 5px;
+    height: 25px;
+}
 
 
+.help a {
+    text-decoration: none;
+    color: #737373;
+
+}
+
+.help a:hover{
+    text-decoration: underline;
+}
+
+.login_facebook{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #737373;
+
+}
+
+.login_facebook span {
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.login_facebook span a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.sign_up {
+    color: #737373;
+    font-size: 16px;
+}
+
+.sign_up a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.sign_up a:hover{
+    text-decoration: underline;
+}
+
+.terms{
+    color: #737373;
+    font-size: 13px;
+}
+
+.terms a {
+    text-decoration: none;
+    color: #0071eb;
+}
+
+.terms a:hover{
+    text-decoration: underline;
+}
 
